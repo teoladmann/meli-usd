@@ -17,7 +17,7 @@ fetch('https://www.dolarsi.com/api/api.php?type=valoresprincipales')
       newElement.classList.add('ui-pdp-color--GREEN');
       newElement.innerText = `u$ ${(price / cotizacion).toFixed(
         2
-      )} (Cotización: u$ ${cotizacion})`;
+      )} (Cotización: $ ${cotizacion})`;
       afterElement.append(newElement);
     }
   });
