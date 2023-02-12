@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "MeLi USD",
+  "description": "Calcula el precio del artículo en dólares a cotización blue.",
+  "version": "1.0",
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.mercadolibre.com.ar/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
