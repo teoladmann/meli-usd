@@ -6,7 +6,7 @@
   "action": {
     "default_icon": "icon.png"
   },
-  "permissions": ["scripting"],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": ["https://*.mercadolibre.com.ar/*"],
