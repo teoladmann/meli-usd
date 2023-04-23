@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 4,
   "name": "MeLi USD",
   "description": "Calcula el precio del artículo en dólares a cotización blue.",
   "version": "1.0",
